@@ -1,0 +1,3 @@
+Method: overlap
+CTATCAC
+CTATCAC
