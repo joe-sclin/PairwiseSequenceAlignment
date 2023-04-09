@@ -25,3 +25,8 @@
 * Genomic sequence of human and house cat Cyclin B1 genes for DNA alignment
 * Hepatitis B virus polymerase protein sequence between wild-type(YMDD motif) and partial sequence from a mutant causing lamivudine-resistance in clinical outcome
 * GenBank accession number were included in header of each sequence in example dataset fasta file (Reference of each sequence could obtain from GenBank)
+
+## Limitation of recursive approach
+* Recursive approach to find all optimal global alignment was added in RecursiveAlignment.cpp
+* Common to obtain a large number of alignments with the same optimal score using default scoring setting (+1, -1, -2) --> Not suitable for long sequence in general
+* Example demo dataset contained 15 bp --> 12 optimal alignment results
