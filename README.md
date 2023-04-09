@@ -27,6 +27,6 @@
 * GenBank accession number were included in header of each sequence in example dataset fasta file (Reference of each sequence could obtain from GenBank)
 
 ## Limitation of recursive approach
-* Recursive approach to find all optimal global alignment was added in RecursiveAlignment.cpp
+* Recursive approach to find all optimal global alignment was added in RecursiveFunction.cpp
 * Common to obtain a large number of alignments with the same optimal score using default scoring setting (+1, -1, -2) --> Not suitable for long sequence in general
 * Example demo dataset contained 15 bp --> 12 optimal alignment results
